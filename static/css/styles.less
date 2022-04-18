@@ -1,0 +1,89 @@
+/*Imports*/
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Deca:wght@100;200;300;400;500;600;700;800;900&display=swap');
+/* Main */
+body {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.525), rgba(0, 0, 0, 0.5)), url(https://PrestoHacks.nicholasxwang.repl.co/static/images/Background.jpg) !important; /*Image from: https://unsplash.com/images/things/music*/ 
+    background: no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    color: white;
+    font-family: 'Lexend Deca', sans-serif;
+}
+file {
+  margin: 0;
+  padding: 2rem 1.5rem;
+  font: 1rem/1.5 "PT Sans", Arial, sans-serif;
+  color: #5a5a5a;
+}
+
+button{
+  padding:20px;
+  margin:10px;
+  background:linear-gradient(to right, #fc2b58,#9640ff);
+  color:black;
+  border-style:none;
+  border-radius:10px;
+  font-size:1.5em;
+  font-family: 'Lexend Deca', sans-serif;
+}
+button:hover{
+  background:linear-gradient(to right, #941b35,#5a2699);
+}
+
+
+h1 {
+  margin: 10px;
+}
+
+/*Classes*/
+
+progress[value] {
+  /* Reset the default appearance */
+  -webkit-appearance: none;
+   appearance: none;
+
+  width: 250px;
+  height: 20px;
+  
+}
+progress[value]::-webkit-progress-value {
+  background-image:
+	   -webkit-linear-gradient(-45deg, 
+	                           transparent 33%, rgba(0, 0, 0, .1) 33%, 
+	                           rgba(0,0, 0, .1) 66%, transparent 66%),
+	   -webkit-linear-gradient(top, 
+	                           rgba(255, 255, 255, .25), 
+	                           rgba(0, 0, 0, .25)),
+	   -webkit-linear-gradient(left, #09c, #f44);
+
+    border-radius: 2px; 
+    background-size: 35px 20px, 100% 100%, 100% 100%;
+}
+
+
+.submit{
+  padding:20px;
+  margin:10px;
+  background:linear-gradient(to right, #fc2b58,#9640ff);
+  color:black;
+  border-style:none;
+  border-radius:10px;
+  font-size:1.5em;
+  font-family: 'Lexend Deca', sans-serif;
+}
+.submit:hover{
+  background:linear-gradient(to right, #941b35,#5a2699);
+}
+
+input[type=file]{
+  padding:20px;
+  margin:10px;
+  background:rgba(256,256,256,0.3);
+  color:black;
+  border-style:none;
+  border-radius:10px;
+  font-size:1.5em;
+  font-family: 'Lexend Deca', sans-serif;
+}
